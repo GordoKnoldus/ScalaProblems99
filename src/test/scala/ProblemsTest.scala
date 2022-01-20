@@ -16,10 +16,6 @@ class ProblemsTest extends AnyFunSuite with TestingValues {
   }
 
   // penultimate
-  // penultimate(List(1, 1, 2, 3, 5, 8)) // 5
-  // penultimate(List(2)) // Error
-  // penultimate(List()) // Error
-
   test("penultimate(List(1, 1, 2, 3, 5, 8)) should return 5") {
     assert(problems.penultimate(List(1, 1, 2, 3, 5, 8)) == 5)
   }
@@ -33,4 +29,7 @@ class ProblemsTest extends AnyFunSuite with TestingValues {
       problems.penultimate(List())
     }
   }
+
+  // nth
+
 }
